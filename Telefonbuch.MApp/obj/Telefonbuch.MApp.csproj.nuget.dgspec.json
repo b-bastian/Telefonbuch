@@ -132,6 +132,10 @@
             "Syncfusion.Maui.Core": {
               "target": "Package",
               "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[25.1.39, )"
             }
           },
           "imports": [
@@ -265,6 +269,18 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Inputs": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[25.1.39, )"
             }
           },
           "imports": [
@@ -312,6 +328,18 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Inputs": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[25.1.39, )"
             }
           },
           "imports": [
@@ -359,6 +387,18 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Inputs": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[25.1.39, )"
             }
           },
           "imports": [
@@ -401,6 +441,18 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.14, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Inputs": {
+              "target": "Package",
+              "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[25.1.39, )"
             }
           },
           "imports": [

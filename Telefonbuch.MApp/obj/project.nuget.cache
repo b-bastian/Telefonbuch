@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y5YbcL/PVgjY+JiEkBruVFEMbPN6ys5TYNgBwze25LZcsNfCeHwPxTLdAd2EkSSQW9dvC82l/n6hUfhAH0UswA==",
+  "dgSpecHash": "f1Hd07colkYwEBSnGV/v4SnHFsS3M/4nbIIA3dqccPFyrQlDRdsNbNrEmIeT/9Z+5FVL/TuRd9iaU7BE1eqUsQ==",
   "success": true,
   "projectFilePath": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Telefonbuch.MApp.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,12 @@
     "C:\\Users\\bastian\\.nuget\\packages\\microsoft.windowsappsdk\\1.4.240211001\\microsoft.windowsappsdk.1.4.240211001.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.licensing\\25.1.39\\syncfusion.licensing.25.1.39.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.core\\25.1.39\\syncfusion.maui.core.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.datasource\\25.1.39\\syncfusion.maui.datasource.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.gridcommon\\25.1.39\\syncfusion.maui.gridcommon.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.inputs\\25.1.39\\syncfusion.maui.inputs.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.listview\\25.1.39\\syncfusion.maui.listview.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.picker\\25.1.39\\syncfusion.maui.picker.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.popup\\25.1.39\\syncfusion.maui.popup.25.1.39.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\system.speech\\8.0.0\\system.speech.8.0.0.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",

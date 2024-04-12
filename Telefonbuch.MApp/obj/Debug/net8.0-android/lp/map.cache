@@ -161,3 +161,9 @@ Xamarin.Google.ErrorProne.Annotations.aar
 CommunityToolkit.Maui.Core.dll
 CommunityToolkit.Maui.dll
 Syncfusion.Maui.Core.dll
+Syncfusion.Maui.Picker.dll
+Syncfusion.Maui.Popup.dll
+Syncfusion.Maui.DataSource.dll
+Syncfusion.Maui.GridCommon.dll
+Syncfusion.Maui.Inputs.dll
+Syncfusion.Maui.ListView.dll

@@ -10,3 +10,4 @@ D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\refint\Telefonbuch.Lib.dll
 D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.pdb
 D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\ref\Telefonbuch.Lib.dll
 D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.sourcelink.json
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.csproj.AssemblyReference.cache

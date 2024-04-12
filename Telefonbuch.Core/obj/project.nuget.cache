@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9Gtu2Qr5/a0+soIkXrd8w4tXpaDr/TXj8bdEEYuhKNFKeUzWECIw/wOJWhGGPrzqMYkCLN4fSd91Ou7VVxn+xQ==",
+  "dgSpecHash": "PFQnAG8f92fk2SCGtfLvJQrwlR0xl0aOSVphBIx1T9w2o9yxOmOsky/84OBRUYbgeIxa9Tc001/1cp7KWOTFjQ==",
   "success": true,
   "projectFilePath": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\Telefonbuch.Core.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,9 @@
     "C:\\Users\\bastian\\.nuget\\packages\\microsoft.maui.graphics\\8.0.14\\microsoft.maui.graphics.8.0.14.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.14\\microsoft.maui.resizetizer.8.0.14.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.licensing\\25.1.39\\syncfusion.licensing.25.1.39.nupkg.sha512",
-    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.core\\25.1.39\\syncfusion.maui.core.25.1.39.nupkg.sha512"
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.core\\25.1.39\\syncfusion.maui.core.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.picker\\25.1.39\\syncfusion.maui.picker.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.popup\\25.1.39\\syncfusion.maui.popup.25.1.39.nupkg.sha512"
   ],
   "logs": []
 }

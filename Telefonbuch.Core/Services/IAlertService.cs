@@ -10,7 +10,6 @@ namespace Telefonbuch.Core.Services
     {
         void ShowAlert(string title, string message);
 
-        // TODO: entfernen wenn nicht in gebrauch
         Task ShowAlertAsync(string title, string message);
     }
 }

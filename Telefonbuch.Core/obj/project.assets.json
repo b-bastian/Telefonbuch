@@ -470,11 +470,50 @@
           }
         }
       },
+      "Syncfusion.Maui.Picker/25.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.39",
+          "Syncfusion.Maui.Popup": "25.1.39"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Maui.Picker.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Maui.Picker.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.39"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Telefonbuch.Lib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Syncfusion.Maui.Core": "25.1.39"
+          "Syncfusion.Maui.Core": "25.1.39",
+          "Syncfusion.Maui.Picker": "25.1.39"
         },
         "compile": {
           "bin/placeholder/Telefonbuch.Lib.dll": {}
@@ -1770,6 +1809,94 @@
         "lib/net8.0/Syncfusion.Maui.Core.xml",
         "syncfusion.maui.core.25.1.39.nupkg.sha512",
         "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Picker/25.1.39": {
+      "sha512": "HpUJ3fg3MyZZzKg8GQJuA9x1jKPcm4kvZC9qnLz6rNQqJYrh/zIDQk+x5iNNwZpNbkiSBne9inArCIWL3qV6Pw==",
+      "type": "package",
+      "path": "syncfusion.maui.picker/25.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Picker.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Picker.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Picker.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Picker.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Picker.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Picker.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Picker.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Picker.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Picker.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Picker.xml",
+        "lib/net7.0/Syncfusion.Maui.Picker.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Picker.dll",
+        "lib/net7.0/Syncfusion.Maui.Picker.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Picker.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Picker.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Picker.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Picker.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Picker.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Picker.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Picker.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Picker.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Picker.xml",
+        "lib/net8.0/Syncfusion.Maui.Picker.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Picker.dll",
+        "lib/net8.0/Syncfusion.Maui.Picker.xml",
+        "syncfusion.maui.picker.25.1.39.nupkg.sha512",
+        "syncfusion.maui.picker.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Popup/25.1.39": {
+      "sha512": "H+LZOc2n+VY3miUeAB9rzws0s6Cju0O4pN7HqAMfVxU/NBVPXEJT6j9fpyuA1RRdeRUQDJ2DssP5efzSkp/R5A==",
+      "type": "package",
+      "path": "syncfusion.maui.popup/25.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Popup.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-android34.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "syncfusion.maui.popup.25.1.39.nupkg.sha512",
+        "syncfusion.maui.popup.nuspec",
         "syncfusion_logo.png"
       ]
     },

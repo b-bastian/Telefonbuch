@@ -4,10 +4,110 @@
              x:Class="Telefonbuch.MApp.MainPage"
              xmlns:viewmodels="clr-namespace:Telefonbuch.Core.ViewModels;assembly=Telefonbuch.Core"
              x:DataType="viewmodels:MainViewModel"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             Title="MainPage">
+             xmlns:models="clr-namespace:Telefonbuch.Lib.Models;assembly=Telefonbuch.Lib"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
     <ContentPage.Behaviors>
         <toolkit:EventToCommandBehavior EventName="Appearing"
                                         Command="{Binding LoadDataCommand}" />
     </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="auto,*">
+        <Grid ColumnDefinitions="*,*,*,*,*,*">
+            <Label Text="Favorite"
+                   FontSize="Caption"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   Padding="5" />
+            <Label Text="Name"
+                   FontSize="Caption"
+                   FontAttributes="Bold"
+                   Padding="5" 
+                   Grid.Column="1" />
+            <Label Text="Adress"
+                   FontSize="Caption"
+                   FontAttributes="Bold"
+                   Padding="5" 
+                   Grid.Column="2" />
+            <Label Text="Postal code"
+                   FontSize="Caption"
+                   FontAttributes="Bold"
+                   Padding="5" 
+                   Grid.Column="3" />
+            <Label Text="Place"
+                   FontSize="Caption"
+                   FontAttributes="Bold"
+                   Padding="5" 
+                   Grid.Column="4" />
+            <Label Text="Number"
+                   FontSize="Caption"
+                   FontAttributes="Bold"
+                   Padding="5" 
+                   Grid.Column="5" />
+        </Grid>
+
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Entries}"
+                        SelectedItem="{Binding SelectedEntry}"
+                        SelectionMode="Single">
+            <CollectionView.EmptyView>
+                <Label Text="Nothing to show. If you want to add a contact go to 'Manage Entries'." Padding="5" />
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Entry">
+                    <Grid ColumnDefinitions="*,*,*,*,*,*">
+                        <Image VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               Source="star_empty.png" 
+                               IsVisible="{Binding Favorite}"
+                               HeightRequest="15">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MainViewModel}}, Path=ToggleFavoriteCommand}"
+                                            CommandParameter="{Binding .}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                        <Image VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               Source="star.png" 
+                               IsVisible="{Binding Favorite, Converter={StaticResource InvertedBoolConverter}}"
+                               HeightRequest="15">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MainViewModel}}, Path=ToggleFavoriteCommand}"
+                                            CommandParameter="{Binding .}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                        <Label Grid.Column="1"
+                               Text="{Binding Firstname}" 
+                               Padding="5" />
+
+                        <Label Grid.Column="2"
+                               Text="{Binding Adress}" 
+                               Padding="5" />
+
+                        <Label Grid.Column="3"
+                               Text="{Binding PLZ}" 
+                               Padding="5" />
+
+                        <Label Grid.Column="4"
+                               Text="{Binding Place}" 
+                               Padding="5" />
+
+                        <Label Grid.Column="5"
+                               Text="{Binding Number}" 
+                               Padding="5" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+    
 </ContentPage>

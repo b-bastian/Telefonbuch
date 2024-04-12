@@ -132,6 +132,10 @@
             "Syncfusion.Maui.Core": {
               "target": "Package",
               "version": "[25.1.39, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[25.1.39, )"
             }
           },
           "imports": [

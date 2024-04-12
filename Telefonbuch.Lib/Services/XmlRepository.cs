@@ -262,5 +262,29 @@ namespace Telefonbuch.Lib.Services
                 return false;
             }
         }
+
+        public bool Update(Entry entry)
+        {
+            var item = (from e in this._rootElement.Descendants("entry")
+                        where ((string)e.Attribute("number") ?? "") == entry.Number
+                        select e).FirstOrDefault();
+
+            if (item != null)
+            {
+                item.SetAttributeValue("firstname", entry.Firstname.ToString());
+                item.SetAttributeValue("lastname", entry.Lastname.ToString());
+                item.SetAttributeValue("adress", entry.Adress.ToString());
+                item.SetAttributeValue("plz", entry.PLZ.ToString());
+                item.SetAttributeValue("place", entry.Place.ToString());
+                item.SetAttributeValue("number", entry.Number.ToString());
+                item.SetAttributeValue("favorite", entry.Favorite.ToString());
+
+                return this.Save();
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

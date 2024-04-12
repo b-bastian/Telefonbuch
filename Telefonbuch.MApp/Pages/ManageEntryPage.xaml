@@ -5,7 +5,7 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:viewmodels="clr-namespace:Telefonbuch.Core.ViewModels;assembly=Telefonbuch.Core"
              x:DataType="viewmodels:ManageEntryViewModel"
-             xmlns:picker="syncfusion"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
              xmlns:models="clr-namespace:Telefonbuch.Lib.Models;assembly=Telefonbuch.Lib">
 
     <ContentPage.Behaviors>

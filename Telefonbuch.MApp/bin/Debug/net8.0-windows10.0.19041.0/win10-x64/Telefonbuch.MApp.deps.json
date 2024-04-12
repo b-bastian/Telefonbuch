@@ -13,6 +13,9 @@
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14",
+          "Syncfusion.Maui.Core": "25.1.39",
+          "Syncfusion.Maui.Inputs": "25.1.39",
+          "Syncfusion.Maui.Picker": "25.1.39",
           "Telefonbuch.Core": "1.0.0",
           "Telefonbuch.Lib": "1.0.0",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
@@ -469,6 +472,99 @@
           }
         }
       },
+      "Syncfusion.Licensing/25.1.39": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.39": {
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.39"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/25.1.39": {
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/25.1.39": {
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/25.1.39": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.39",
+          "Syncfusion.Maui.ListView": "25.1.39"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/25.1.39": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.39",
+          "Syncfusion.Maui.DataSource": "25.1.39",
+          "Syncfusion.Maui.GridCommon": "25.1.39"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        },
+        "resources": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Picker/25.1.39": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.39",
+          "Syncfusion.Maui.Popup": "25.1.39"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Picker.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.39": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.39"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "assemblyVersion": "25.1.39.0",
+            "fileVersion": "25.1.39.0"
+          }
+        },
+        "resources": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "System.Speech/8.0.0": {
         "runtime": {
           "runtimes/win/lib/net8.0/System.Speech.dll": {
@@ -488,6 +584,10 @@
         }
       },
       "Telefonbuch.Lib/1.0.0": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.39",
+          "Syncfusion.Maui.Picker": "25.1.39"
+        },
         "runtime": {
           "Telefonbuch.Lib.dll": {}
         }
@@ -679,6 +779,62 @@
       "sha512": "sha512-43PdPLNSbBfugbQ7fd5imnZPpg7TGNirCe1/f3KLLYCg1NgDJeTh7t2ihLPuIdmD7rf6mTaUtRXUJYw0HBOzFQ==",
       "path": "microsoft.windowsappsdk/1.4.240211001",
       "hashPath": "microsoft.windowsappsdk.1.4.240211001.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i8krFQ2ElmL27dOwoPwwi8BZBX9hxaVgXVeVQZMvHp/U5k9Pn0UDp7/edzDkLmsIQFZHXx1J56VxR+4T+UKarA==",
+      "path": "syncfusion.licensing/25.1.39",
+      "hashPath": "syncfusion.licensing.25.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUXHhQwzIJ5UCgA4uBEaNwL0efKDGvn23fJe0Q70FFjc1j2E/+ifpukMFPbPfMJ4ckt+wzJnHgDxx04OujJv5Q==",
+      "path": "syncfusion.maui.core/25.1.39",
+      "hashPath": "syncfusion.maui.core.25.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.DataSource/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-krav0bGSaL3Dj1nhzEC36pacc6tov42FGZh4ULO1v6BMS+jokwetjyVtRZzsuGPNgFSM4o/angXa/4LirHqoxA==",
+      "path": "syncfusion.maui.datasource/25.1.39",
+      "hashPath": "syncfusion.maui.datasource.25.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.GridCommon/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6aFjtk4QM+TLirHzLrb/2JJxa+dUE3hKOmC0nZ6oj1auvctcD6Pv/r9yobwpoH64oQOnimP+Z7xReNRdYmndEA==",
+      "path": "syncfusion.maui.gridcommon/25.1.39",
+      "hashPath": "syncfusion.maui.gridcommon.25.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Inputs/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Agyc/DnavguPJADl9+TemX7rc7UKLr/krWbDJfZDKLTd752HR1AlboGMB6t+FxO3n5ZxLYpfjvgfVL+YaYC8lQ==",
+      "path": "syncfusion.maui.inputs/25.1.39",
+      "hashPath": "syncfusion.maui.inputs.25.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.ListView/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZMe7fSlMCsmD2OI2TcSd++lrkPiVBX7qCgcub3EEWKIx7cBi3JxXZ13Vurot5FW/svedt3Y0xkLzx39UGPD8QQ==",
+      "path": "syncfusion.maui.listview/25.1.39",
+      "hashPath": "syncfusion.maui.listview.25.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Picker/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HpUJ3fg3MyZZzKg8GQJuA9x1jKPcm4kvZC9qnLz6rNQqJYrh/zIDQk+x5iNNwZpNbkiSBne9inArCIWL3qV6Pw==",
+      "path": "syncfusion.maui.picker/25.1.39",
+      "hashPath": "syncfusion.maui.picker.25.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Popup/25.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+LZOc2n+VY3miUeAB9rzws0s6Cju0O4pN7HqAMfVxU/NBVPXEJT6j9fpyuA1RRdeRUQDJ2DssP5efzSkp/R5A==",
+      "path": "syncfusion.maui.popup/25.1.39",
+      "hashPath": "syncfusion.maui.popup.25.1.39.nupkg.sha512"
     },
     "System.Speech/8.0.0": {
       "type": "package",
