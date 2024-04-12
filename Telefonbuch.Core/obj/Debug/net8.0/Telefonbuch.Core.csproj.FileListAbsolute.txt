@@ -1,0 +1,15 @@
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Debug\net8.0\Telefonbuch.Core.deps.json
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Debug\net8.0\Telefonbuch.Core.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Debug\net8.0\Telefonbuch.Core.pdb
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonbuch.Core.csproj.AssemblyReference.cache
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonbuch.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonbuch.Core.AssemblyInfoInputs.cache
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonbuch.Core.AssemblyInfo.cs
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonbuch.Core.csproj.CoreCompileInputs.cache
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonbuch.Core.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\refint\Telefonbuch.Core.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonbuch.Core.pdb
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\ref\Telefonbuch.Core.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Debug\net8.0\Telefonbuch.Lib.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Debug\net8.0\Telefonbuch.Lib.pdb
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Debug\net8.0\Telefonb.59F87428.Up2Date

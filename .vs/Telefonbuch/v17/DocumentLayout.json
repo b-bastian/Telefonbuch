@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\Telefonbuch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|d:\\git\\telefonbuch\\telefonbuch.core\\viewmodels\\manageentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|solutionrelative:telefonbuch.core\\viewmodels\\manageentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|d:\\git\\telefonbuch\\telefonbuch.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|solutionrelative:telefonbuch.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|d:\\git\\telefonbuch\\telefonbuch.mapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|solutionrelative:telefonbuch.mapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|d:\\git\\telefonbuch\\telefonbuch.mapp\\pages\\manageentrypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|solutionrelative:telefonbuch.mapp\\pages\\manageentrypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8BBD41-C9C9-4CF3-B78E-F397206252A8}|Telefonbuch.Lib\\Telefonbuch.Lib.csproj|d:\\git\\telefonbuch\\telefonbuch.lib\\services\\xmlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8BBD41-C9C9-4CF3-B78E-F397206252A8}|Telefonbuch.Lib\\Telefonbuch.Lib.csproj|solutionrelative:telefonbuch.lib\\services\\xmlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8BBD41-C9C9-4CF3-B78E-F397206252A8}|Telefonbuch.Lib\\Telefonbuch.Lib.csproj|d:\\git\\telefonbuch\\telefonbuch.lib\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8BBD41-C9C9-4CF3-B78E-F397206252A8}|Telefonbuch.Lib\\Telefonbuch.Lib.csproj|solutionrelative:telefonbuch.lib\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8BBD41-C9C9-4CF3-B78E-F397206252A8}|Telefonbuch.Lib\\Telefonbuch.Lib.csproj|d:\\git\\telefonbuch\\telefonbuch.lib\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8BBD41-C9C9-4CF3-B78E-F397206252A8}|Telefonbuch.Lib\\Telefonbuch.Lib.csproj|solutionrelative:telefonbuch.lib\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entry.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Models\\Entry.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.Lib\\Models\\Entry.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Models\\Entry.cs",
+              "RelativeToolTip": "Telefonbuch.Lib\\Models\\Entry.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:14:33.004Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageEntryPage.xaml",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\ManageEntryPage.xaml",
+              "RelativeDocumentMoniker": "Telefonbuch.MApp\\Pages\\ManageEntryPage.xaml",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\ManageEntryPage.xaml",
+              "RelativeToolTip": "Telefonbuch.MApp\\Pages\\ManageEntryPage.xaml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-12T13:22:19.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Telefonbuch.MApp\\Pages\\MainPage.xaml",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Telefonbuch.MApp\\Pages\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-09T19:29:35.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.Core\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Telefonbuch.Core\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:17:18.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.Lib\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Telefonbuch.Lib\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:11:41.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XmlRepository.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Services\\XmlRepository.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.Lib\\Services\\XmlRepository.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Services\\XmlRepository.cs",
+              "RelativeToolTip": "Telefonbuch.Lib\\Services\\XmlRepository.cs",
+              "ViewState": "AQIAAO0AAAAAAAAAAAAAAO8AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T18:58:21.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageEntryViewModel.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\ViewModels\\ManageEntryViewModel.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.Core\\ViewModels\\ManageEntryViewModel.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\ViewModels\\ManageEntryViewModel.cs",
+              "RelativeToolTip": "Telefonbuch.Core\\ViewModels\\ManageEntryViewModel.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAwwIAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:04:37.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

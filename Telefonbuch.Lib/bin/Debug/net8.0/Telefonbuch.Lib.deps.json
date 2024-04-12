@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Telefonbuch.Lib/1.0.0": {
+        "runtime": {
+          "Telefonbuch.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Telefonbuch.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
