@@ -14,18 +14,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 using CommunityToolkit.Maui.Converters;
+using Telefonbuch.Core.Services;
 
 namespace Telefonbuch.Core.ViewModels;
 
-public partial class ManageEntryViewModel(IRepository repository) : ObservableObject
+public partial class ManageEntryViewModel(IRepository repository, IAlertService alertService) : ObservableObject
 {
     IRepository _repository = repository;
+    IAlertService _alertService = alertService;
 
     [ObservableProperty]
     ObservableCollection<Entry> _entries = new();
-
-    [ObservableProperty]
-    string _feedback = string.Empty;
 
     #region Create Entry Properties
     [ObservableProperty]
@@ -84,8 +83,6 @@ public partial class ManageEntryViewModel(IRepository repository) : ObservableOb
     [RelayCommand(CanExecute = nameof(CanAdd))]
     public void AddEntry()
     {
-        string fullName = $"{this.Firstname} {this.Lastname}";
-
         Entry entry = new(this.Firstname, this.Lastname, this.Adress, this.Plz, this.Place, this.Number, this.Favorite);
 
         var result = this._repository.CreateEntry(entry);
@@ -101,14 +98,17 @@ public partial class ManageEntryViewModel(IRepository repository) : ObservableOb
             this.Entries.Add(entry);
             this.EntryNames.Add(this.Firstname);
 
-            this.Feedback = "Entry created successfully!";
-
             this.Firstname = string.Empty;
             this.Lastname = string.Empty;
             this.Adress = string.Empty;
             this.Plz = 0;
             this.Place = string.Empty;
             this.Number = string.Empty;
+
+            this._alertService.ShowAlert("Successful", "The contact was added successfully.");
+        } else
+        {
+            this._alertService.ShowAlert("Error", "There was an error adding your contact.");
         }
     }
 

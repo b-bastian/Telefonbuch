@@ -6,6 +6,9 @@ using System.Xml;
 using Telefonbuch.Lib.Services;
 using CommunityToolkit.Maui;
 using System.Diagnostics;
+using CommunityToolkit.Maui.Core;
+using Telefonbuch.Core.Services;
+using Telefonbuch.MApp.Services;
 
 namespace Telefonbuch.MApp
 {
@@ -39,6 +42,8 @@ namespace Telefonbuch.MApp
             Debug.WriteLine($"AppDataDirectory: {fullPath}");
 
             builder.Services.AddSingleton<IRepository>(new XmlRepository(fullPath));
+
+            builder.Services.AddSingleton<IAlertService, AlertService>();
 
 #if DEBUG
             builder.Logging.AddDebug();

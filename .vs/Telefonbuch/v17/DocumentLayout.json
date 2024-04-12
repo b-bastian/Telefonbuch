@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|solutionrelative:telefonbuch.core\\viewmodels\\manageentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|d:\\git\\telefonbuch\\telefonbuch.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|solutionrelative:telefonbuch.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|d:\\git\\telefonbuch\\telefonbuch.mapp\\services\\alertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|solutionrelative:telefonbuch.mapp\\services\\alertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|d:\\git\\telefonbuch\\telefonbuch.core\\services\\ialertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|solutionrelative:telefonbuch.core\\services\\ialertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|d:\\git\\telefonbuch\\telefonbuch.mapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|solutionrelative:telefonbuch.mapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|d:\\git\\telefonbuch\\telefonbuch.mapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|solutionrelative:telefonbuch.mapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|d:\\git\\telefonbuch\\telefonbuch.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C03AD8-FD94-4978-AD4B-8CE109477277}|Telefonbuch.Core\\Telefonbuch.Core.csproj|solutionrelative:telefonbuch.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|d:\\git\\telefonbuch\\telefonbuch.mapp\\pages\\manageentrypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -38,11 +50,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Entry.cs",
               "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Models\\Entry.cs",
               "RelativeDocumentMoniker": "Telefonbuch.Lib\\Models\\Entry.cs",
@@ -51,16 +67,50 @@
               "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T19:14:33.004Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAlertService.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\Services\\IAlertService.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.Core\\Services\\IAlertService.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\Services\\IAlertService.cs",
+              "RelativeToolTip": "Telefonbuch.Core\\Services\\IAlertService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:42:44.34Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlertService.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Services\\AlertService.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.MApp\\Services\\AlertService.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Services\\AlertService.cs",
+              "RelativeToolTip": "Telefonbuch.MApp\\Services\\AlertService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:41:35.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Telefonbuch.MApp\\MauiProgram.cs",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\MauiProgram.cs",
+              "RelativeToolTip": "Telefonbuch.MApp\\MauiProgram.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAC0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:40:47.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ManageEntryPage.xaml",
               "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\ManageEntryPage.xaml",
               "RelativeDocumentMoniker": "Telefonbuch.MApp\\Pages\\ManageEntryPage.xaml",
@@ -68,12 +118,11 @@
               "RelativeToolTip": "Telefonbuch.MApp\\Pages\\ManageEntryPage.xaml",
               "ViewState": "AQIAAFQAAAAAAAAAAAAAAGMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-12T13:22:19.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T13:22:19.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "Telefonbuch.MApp\\Pages\\MainPage.xaml",
@@ -86,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "Telefonbuch.Core\\ViewModels\\MainViewModel.cs",
@@ -94,12 +143,11 @@
               "RelativeToolTip": "Telefonbuch.Core\\ViewModels\\MainViewModel.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:17:18.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T19:17:18.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Telefonbuch.Lib\\Interfaces\\IRepository.cs",
@@ -107,12 +155,11 @@
               "RelativeToolTip": "Telefonbuch.Lib\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:11:41.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T19:11:41.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "XmlRepository.cs",
               "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.Lib\\Services\\XmlRepository.cs",
               "RelativeDocumentMoniker": "Telefonbuch.Lib\\Services\\XmlRepository.cs",
@@ -120,8 +167,7 @@
               "RelativeToolTip": "Telefonbuch.Lib\\Services\\XmlRepository.cs",
               "ViewState": "AQIAAO0AAAAAAAAAAAAAAO8AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:58:21.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T18:58:21.299Z"
             },
             {
               "$type": "Document",
@@ -131,7 +177,7 @@
               "RelativeDocumentMoniker": "Telefonbuch.Core\\ViewModels\\ManageEntryViewModel.cs",
               "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.Core\\ViewModels\\ManageEntryViewModel.cs",
               "RelativeToolTip": "Telefonbuch.Core\\ViewModels\\ManageEntryViewModel.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAwwIAAAAA1AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAlwDIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T19:04:37.767Z",
               "EditorCaption": ""

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Git\Telefonbuch\Telefonbuch.MApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-12T13:22:39.511</Modified>
+      <Modified>2024-04-12T13:44:45.453</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-09T18:55:11.702</Modified>
+      <Modified>2024-04-12T13:44:45.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Telefonbuch.MApp.runtimeconfig.json">
       <PackagePath>Telefonbuch.MApp.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Telefonbuch.MApp.dll">
       <PackagePath>Telefonbuch.MApp.dll</PackagePath>
-      <Modified>2024-04-12T13:22:39.108</Modified>
+      <Modified>2024-04-12T13:44:42.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Telefonbuch.MApp.exe</PackagePath>
-      <Modified>2024-04-12T13:22:39.112</Modified>
+      <Modified>2024-04-12T13:44:42.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Telefonbuch.MApp.deps.json">
       <PackagePath>Telefonbuch.MApp.deps.json</PackagePath>
-      <Modified>2024-04-09T18:55:11.422</Modified>
+      <Modified>2024-04-12T13:44:44.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bastian\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -584,7 +584,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.Core\bin\Debug\net8.0\Telefonbuch.Core.dll">
       <PackagePath>Telefonbuch.Core.dll</PackagePath>
-      <Modified>2024-04-12T13:19:57.957</Modified>
+      <Modified>2024-04-12T13:44:32.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.Lib\bin\Debug\net8.0\Telefonbuch.Lib.dll">
       <PackagePath>Telefonbuch.Lib.dll</PackagePath>

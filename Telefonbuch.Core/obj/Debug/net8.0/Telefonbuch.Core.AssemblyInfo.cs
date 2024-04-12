@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Telefonbuch.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71de811aefe3cf88e80b545e47100ba0fb8d1b57")]
 [assembly: System.Reflection.AssemblyProductAttribute("Telefonbuch.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Telefonbuch.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
