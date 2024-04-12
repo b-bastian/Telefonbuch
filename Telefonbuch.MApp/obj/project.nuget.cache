@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0mRqIRZ4/At4PORLC2/XQSJCp0i46ErkF4GzzYuSBEnDGAk3sqsEcxU0R76TfCCWIkkinH4N24KN2uBxCJVLoA==",
+  "dgSpecHash": "y5YbcL/PVgjY+JiEkBruVFEMbPN6ys5TYNgBwze25LZcsNfCeHwPxTLdAd2EkSSQW9dvC82l/n6hUfhAH0UswA==",
   "success": true,
   "projectFilePath": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Telefonbuch.MApp.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,8 @@
     "C:\\Users\\bastian\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.2\\microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\microsoft.windowsappsdk\\1.4.240211001\\microsoft.windowsappsdk.1.4.240211001.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.licensing\\25.1.39\\syncfusion.licensing.25.1.39.nupkg.sha512",
+    "C:\\Users\\bastian\\.nuget\\packages\\syncfusion.maui.core\\25.1.39\\syncfusion.maui.core.25.1.39.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\system.speech\\8.0.0\\system.speech.8.0.0.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\bastian\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",

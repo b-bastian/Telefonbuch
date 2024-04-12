@@ -5,6 +5,7 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:viewmodels="clr-namespace:Telefonbuch.Core.ViewModels;assembly=Telefonbuch.Core"
              x:DataType="viewmodels:ManageEntryViewModel"
+             xmlns:picker="syncfusion"
              xmlns:models="clr-namespace:Telefonbuch.Lib.Models;assembly=Telefonbuch.Lib">
 
     <ContentPage.Behaviors>
@@ -13,7 +14,7 @@
     </ContentPage.Behaviors>
 
     <ScrollView>
-        <Grid ColumnDefinitions="*,*" RowDefinitions="auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto">
+        <Grid ColumnDefinitions="*,*" RowDefinitions="auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto">
             <Label Text="CREATE CONTACT" 
                    FontSize="20"
                    FontAttributes="Bold" 
@@ -75,12 +76,6 @@
                     Grid.Row="9"
                     Grid.ColumnSpan="2" />
 
-            <Label Text="{Binding Feedback}"
-                   Margin="10"
-                   FontSize="15"
-                   Grid.Row="10"
-                   Grid.ColumnSpan="2"/>
-
             <!-- 
             
                 UPDATE CONTACT
@@ -91,11 +86,11 @@
                    FontSize="20"
                    FontAttributes="Bold" 
                    HorizontalTextAlignment="Center"
-                   Grid.Row="11"
+                   Grid.Row="10"
                    Grid.ColumnSpan="2" />
 
             <Picker Title="Select the item you want to update."
-                    Grid.Row="12"
+                    Grid.Row="11"
                     ItemsSource="{Binding EntryNames}" 
                     SelectedItem="{Binding SelectedItem.Firstname}" 
                     Margin="10"
@@ -106,66 +101,85 @@
             </Picker>
 
             <Label Padding="10,10,0,0"
-                   Grid.Row="13"
+                   Grid.Row="12"
                    Text="Firstname" />
-            <Entry Grid.Row="14"
+            <Entry Grid.Row="13"
                    Margin="10,0,10,0"
                    Text="{Binding UpdateFirstname}" />
 
             <Label Grid.Column="1"
-                   Grid.Row="13"
+                   Grid.Row="12"
                    Padding="0,10,0,0" 
                    Text="Lastname" />
-            <Entry Grid.Row="14"
+            <Entry Grid.Row="13"
                    Grid.Column="1"
                    Margin="0,0,10,0"
                    Text="{Binding UpdateLastname}" />
 
-            <Label Grid.Row="15"
+            <Label Grid.Row="16"
                    Padding="10,10,0,0" 
                    Text="Adress" />
-            <Entry Grid.Row="16"
+            <Entry Grid.Row="17"
                    Grid.ColumnSpan="2"
                    Margin="10,0,10,0"
                    Text="{Binding UpdateAdress}" />
 
-            <Label Grid.Row="17"
+            <Label Grid.Row="18"
                    Padding="10,10,0,0" 
                    Text="Plz" />
-            <Entry Grid.Row="18"
+            <Entry Grid.Row="19"
                    Margin="10,0,10,0"
                    Text="{Binding UpdatePlz}" />
 
-            <Label Grid.Row="17"
+            <Label Grid.Row="18"
                    Padding="0,10,0,0" 
                    Grid.Column="1"
                    Text="Place" />
-            <Entry Grid.Row="18"
+            <Entry Grid.Row="19"
                    Grid.Column="1"
                    Margin="0,0,10,0"
                    Text="{Binding UpdatePlace}" />
 
-            <Label Grid.Row="19"
+            <Label Grid.Row="20"
                    Padding="10,10,0,0" 
                    Text="Number" />
-            <Entry Grid.Row="20"
+            <Entry Grid.Row="21"
                    Grid.ColumnSpan="2"
                    Margin="10,0,10,10"
                    Text="{Binding UpdateNumber}" />
 
-            <Button Text="Create Entry"
-                    Margin="10"
-                    FontSize="15"
-                    Command="{Binding AddEntryCommand}"
-                    Grid.Row="9"
-                    Grid.ColumnSpan="2" />
-
             <Button Text="Update Entry" 
                     Command="{Binding UpdateEntryCommand}"
-                    Grid.Row="21"
+                    Grid.Row="22"
                     Grid.ColumnSpan="2"
                     Margin="10" />
 
+            <!-- 
+            
+                DELETE CONTACT
+            
+            -->
+
+            <Label Text="DELETE CONTACT" 
+                   FontSize="20"
+                   FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="23"
+                   Grid.ColumnSpan="2" />
+
+            <Picker Title="Select the item you want to delete."
+                    Grid.Row="24"
+                    ItemsSource="{Binding EntryNames}" 
+                    SelectedItem="{Binding SelectedItem.Firstname}" 
+                    Margin="10"
+                    Grid.ColumnSpan="2">
+            </Picker>
+
+            <Button Text="Delete Entry" 
+                    Command="{Binding DeleteEntryCommand}"
+                    Grid.Row="25"
+                    Grid.ColumnSpan="2"
+                    Margin="10" />
         </Grid>
     </ScrollView>
 </ContentPage>

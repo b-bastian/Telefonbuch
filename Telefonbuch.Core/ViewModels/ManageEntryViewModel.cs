@@ -185,11 +185,35 @@ public partial class ManageEntryViewModel(IRepository repository, IAlertService 
 
                 if (r)
                 {
-                    Debug.WriteLine("ging");
+                    this._alertService.ShowAlert("Successful", $"The contact with the number {selectedEntry.Number} was updated successfully!");
                 }
                 else
                 {
-                    Debug.WriteLine("ging nicht");
+                    this._alertService.ShowAlert("Error", $"There was an error updating your contact with the number {selectedEntry.Number}");
+                }
+            }
+        }
+    }
+
+    [RelayCommand]
+    void DeleteEntry()
+    {
+        if (!string.IsNullOrEmpty(this.SelectedItem.Firstname))
+        {
+            var selectedEntry = this.Entries.FirstOrDefault(entry => entry.Firstname == this.SelectedItem.Firstname);
+
+            if (selectedEntry != null)
+            {
+                var r = this._repository.DeleteEntry(selectedEntry);
+
+                if (r)
+                {
+                    this._alertService.ShowAlert("Successful", $"The contact with the number {selectedEntry.Number} was updated successfully!");
+                    this.Entries.Remove(selectedEntry);
+                }
+                else
+                {
+                    this._alertService.ShowAlert("Error", $"There was an error updating your contact with the number {selectedEntry.Number}");
                 }
             }
         }

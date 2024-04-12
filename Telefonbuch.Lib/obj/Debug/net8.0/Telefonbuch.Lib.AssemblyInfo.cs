@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Telefonbuch.Lib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+194116df4fb72b0d6a2138487bada6f76ca48338")]
 [assembly: System.Reflection.AssemblyProductAttribute("Telefonbuch.Lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Telefonbuch.Lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

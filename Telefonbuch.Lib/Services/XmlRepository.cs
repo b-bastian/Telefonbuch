@@ -88,7 +88,7 @@ namespace Telefonbuch.Lib.Services
             try
             {
                 var itemsDel = (from del in this._rootElement.Descendants("entry")
-                                where del.Attribute("id").Value == entry.Id
+                                where del.Attribute("number").Value == entry.Number
                                 select del).FirstOrDefault();
 
                 itemsDel.Remove();

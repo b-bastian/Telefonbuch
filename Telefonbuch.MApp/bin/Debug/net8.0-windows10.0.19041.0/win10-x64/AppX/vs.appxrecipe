@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Git\Telefonbuch\Telefonbuch.MApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-12T13:44:45.453</Modified>
+      <Modified>2024-04-12T13:56:44.126</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Telefonbuch.MApp.dll">
       <PackagePath>Telefonbuch.MApp.dll</PackagePath>
-      <Modified>2024-04-12T13:44:42.034</Modified>
+      <Modified>2024-04-12T13:56:43.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Telefonbuch.MApp.exe</PackagePath>
-      <Modified>2024-04-12T13:44:42.079</Modified>
+      <Modified>2024-04-12T13:56:43.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.MApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -584,11 +584,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.Core\bin\Debug\net8.0\Telefonbuch.Core.dll">
       <PackagePath>Telefonbuch.Core.dll</PackagePath>
-      <Modified>2024-04-12T13:44:32.368</Modified>
+      <Modified>2024-04-12T13:57:40.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\Telefonbuch\Telefonbuch.Lib\bin\Debug\net8.0\Telefonbuch.Lib.dll">
       <PackagePath>Telefonbuch.Lib.dll</PackagePath>
-      <Modified>2024-04-12T13:22:34.121</Modified>
+      <Modified>2024-04-12T13:56:42.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bastian\.nuget\packages\microsoft.maui.controls.compatibility\8.0.14\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

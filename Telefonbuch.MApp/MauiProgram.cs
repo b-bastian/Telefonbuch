@@ -9,6 +9,7 @@ using System.Diagnostics;
 using CommunityToolkit.Maui.Core;
 using Telefonbuch.Core.Services;
 using Telefonbuch.MApp.Services;
+using Syncfusion.Maui.Core.Hosting;
 
 namespace Telefonbuch.MApp
 {
@@ -20,6 +21,7 @@ namespace Telefonbuch.MApp
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
+                .ConfigureSyncfusionCore()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -44,6 +46,8 @@ namespace Telefonbuch.MApp
             builder.Services.AddSingleton<IRepository>(new XmlRepository(fullPath));
 
             builder.Services.AddSingleton<IAlertService, AlertService>();
+
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NAaF1cVGhNYVJ1WmFZfVpgd19EY1ZTQWYuP1ZhSXxXdkZiUX9YdHZRR2leVkc=");
 
 #if DEBUG
             builder.Logging.AddDebug();
