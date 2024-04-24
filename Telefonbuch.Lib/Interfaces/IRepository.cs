@@ -18,10 +18,4 @@ public interface IRepository
     bool DeleteEntry(Entry entry);
 
     bool UpdateEntry(Dictionary<string, string> updatedValues, Entry selectedEntry);
-
-    bool Update(Entry entry);
-
-    List<Entry> SearchEntries(string searchText);
-
-    List<Entry> SortEntries(string sortText);
 }

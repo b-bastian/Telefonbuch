@@ -129,6 +129,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[31.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Syncfusion.Maui.Core": {
               "target": "Package",
               "version": "[25.1.39, )"
@@ -258,11 +266,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -270,17 +278,21 @@
               "version": "[8.0.2, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Barcode": {
+              "target": "Package",
+              "version": "[25.1.40, )"
+            },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             }
           },
           "imports": [
@@ -317,11 +329,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -329,17 +341,21 @@
               "version": "[8.0.2, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Barcode": {
+              "target": "Package",
+              "version": "[25.1.40, )"
+            },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             }
           },
           "imports": [
@@ -376,11 +392,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -388,17 +404,21 @@
               "version": "[8.0.2, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Barcode": {
+              "target": "Package",
+              "version": "[25.1.40, )"
+            },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             }
           },
           "imports": [
@@ -436,23 +456,27 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.14, )"
+              "version": "[8.0.20, )"
+            },
+            "Syncfusion.Maui.Barcode": {
+              "target": "Package",
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Inputs": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
-              "version": "[25.1.39, )"
+              "version": "[25.1.40, )"
             }
           },
           "imports": [

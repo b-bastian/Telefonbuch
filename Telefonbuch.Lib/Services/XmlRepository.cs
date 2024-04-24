@@ -127,114 +127,8 @@ namespace Telefonbuch.Lib.Services
             }
         }
 
-        public List<Entry> SearchEntries(string searchText)
-        {
-            var entries = from entry in this._rootElement.Descendants("entry")
-                          select new Entry(
-                            (string)entry.Attribute("firstname"),
-                            (string)entry.Attribute("lastname"),
-                            (string)entry.Attribute("adress"),
-                            (int)entry.Attribute("plz"),
-                            (string)entry.Attribute("place"),
-                            (string)entry.Attribute("number"),
-                            (bool)entry.Attribute("favorite"));
-
-            var filteredEntries = entries.Where(x => !string.IsNullOrWhiteSpace(x.Firstname) && x.Firstname.StartsWith(searchText, StringComparison.CurrentCultureIgnoreCase));
-
-            if (filteredEntries == null || filteredEntries.Count() <= 0) filteredEntries = entries.Where(x => !string.IsNullOrWhiteSpace(x.Adress) && x.Adress.StartsWith(searchText, StringComparison.CurrentCultureIgnoreCase));
-            else return filteredEntries.ToList();
-
-            if (filteredEntries == null || filteredEntries.Count() <= 0) filteredEntries = entries.Where(x => !string.IsNullOrWhiteSpace(Convert.ToString(x.PLZ)) && Convert.ToString(x.PLZ).StartsWith(searchText, StringComparison.CurrentCultureIgnoreCase));
-            else return filteredEntries.ToList();
-
-            if (filteredEntries == null || filteredEntries.Count() <= 0) filteredEntries = entries.Where(x => !string.IsNullOrWhiteSpace(x.Place) && x.Place.StartsWith(searchText, StringComparison.CurrentCultureIgnoreCase));
-            else return filteredEntries.ToList();
-
-            if (filteredEntries == null || filteredEntries.Count() <= 0) filteredEntries = entries.Where(x => !string.IsNullOrWhiteSpace(x.Number) && x.Number.StartsWith(searchText, StringComparison.CurrentCultureIgnoreCase));
-            else return filteredEntries.ToList();
-
-            return filteredEntries.ToList();
-        }
-
-        public List<Entry> SortEntries(string sortText)
-        {
-            var sortedList = from entry in this._rootElement.Descendants("entry")
-                             orderby entry.Attribute(sortText).Value
-                             select new Entry(
-                                (string)entry.Attribute("firstname"),
-                                (string)entry.Attribute("lastname"),
-                                (string)entry.Attribute("adress"),
-                                (int)entry.Attribute("plz"),
-                                (string)entry.Attribute("place"),
-                                (string)entry.Attribute("number"),
-                                (bool)entry.Attribute("favorite"));
-
-            return sortedList.Distinct().ToList();
-        }
-
         public bool UpdateEntry(Dictionary<string, string> updatedValues, Entry selectedEntry)
         {
-            /*
-            // Update an entry by phone number
-            if (entry.Number != null)
-            {
-                var updateObjects = from x in this._rootElement.Descendants("adress")
-                                    where (string)x.Attribute("number") == entry.Number
-                                    select x;
-
-                if (!updateObjects.Any())
-                {
-                    return false;
-                }
-
-                foreach (var updateObject in updateObjects)
-                {
-                    foreach (var attribute in updateObject.Attributes())
-                    {
-                        if (attribute.Name != "phoneNumber")
-                        {
-                            updateObject.SetAttributeValue(valueToUpdate, updatedValue);
-                        }
-                    }
-                }
-
-                this._rootElement.Save(this._file);
-
-                return true;
-            }
-            // Update entry by Id
-            else if (entry.Id != null)
-            {
-                var updateObjects = from x in this._rootElement.Descendants("adress")
-                                    where (string)x.Attribute("id") == entry.Id
-                                    select x;
-
-                if (!updateObjects.Any())
-                {
-                    return false;
-                }
-
-                foreach (var updateObject in updateObjects)
-                {
-                    foreach (var attribute in updateObject.Attributes())
-                    {
-                        if (attribute.Name != "id")
-                        {
-                            updateObject.SetAttributeValue(valueToUpdate, updatedValue);
-                        }
-                    }
-                }
-
-                this._rootElement.Save(this._file);
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-            */
-
             try
             {
                 var updateObjects = from x in this._rootElement.Descendants("entry")
@@ -259,30 +153,6 @@ namespace Telefonbuch.Lib.Services
             catch (Exception ex)
             {
                 Debug.WriteLine($"XmlRepository, UpdateEntry: {ex.Message}");
-                return false;
-            }
-        }
-
-        public bool Update(Entry entry)
-        {
-            var item = (from e in this._rootElement.Descendants("entry")
-                        where ((string)e.Attribute("number") ?? "") == entry.Number
-                        select e).FirstOrDefault();
-
-            if (item != null)
-            {
-                item.SetAttributeValue("firstname", entry.Firstname.ToString());
-                item.SetAttributeValue("lastname", entry.Lastname.ToString());
-                item.SetAttributeValue("adress", entry.Adress.ToString());
-                item.SetAttributeValue("plz", entry.PLZ.ToString());
-                item.SetAttributeValue("place", entry.Place.ToString());
-                item.SetAttributeValue("number", entry.Number.ToString());
-                item.SetAttributeValue("favorite", entry.Favorite.ToString());
-
-                return this.Save();
-            }
-            else
-            {
                 return false;
             }
         }

@@ -15,6 +15,8 @@ using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 using CommunityToolkit.Maui.Converters;
 using Telefonbuch.Core.Services;
+using CommunityToolkit.Mvvm.Messaging;
+using Telefonbuch.Core.Messages;
 
 namespace Telefonbuch.Core.ViewModels;
 
@@ -104,6 +106,8 @@ public partial class ManageEntryViewModel(IRepository repository, IAlertService 
             this.Plz = 0;
             this.Place = string.Empty;
             this.Number = string.Empty;
+
+            WeakReferenceMessenger.Default.Send(new AddMessage(entry));
 
             this._alertService.ShowAlert("Successful", "The contact was added successfully.");
         } else
@@ -208,12 +212,13 @@ public partial class ManageEntryViewModel(IRepository repository, IAlertService 
 
                 if (r)
                 {
-                    this._alertService.ShowAlert("Successful", $"The contact with the number {selectedEntry.Number} was updated successfully!");
+                    this._alertService.ShowAlert("Successful", $"The contact with the number {selectedEntry.Number} was deleted successfully!");
                     this.Entries.Remove(selectedEntry);
+                    WeakReferenceMessenger.Default.Send(new DeleteMessage(selectedEntry));
                 }
                 else
                 {
-                    this._alertService.ShowAlert("Error", $"There was an error updating your contact with the number {selectedEntry.Number}");
+                    this._alertService.ShowAlert("Error", $"There was an error deleting your contact with the number {selectedEntry.Number}");
                 }
             }
         }

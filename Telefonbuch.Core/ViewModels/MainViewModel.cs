@@ -7,7 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Messaging;
 using Microsoft.Maui.Platform;
+using Telefonbuch.Core.Messages;
 using Telefonbuch.Core.Services;
 using Telefonbuch.Lib.Interfaces;
 using Telefonbuch.Lib.Models;
@@ -15,10 +17,24 @@ using Entry = Telefonbuch.Lib.Models.Entry;
 
 namespace Telefonbuch.Core.ViewModels;
 
-public partial class MainViewModel(IRepository repository, IAlertService alertService) : ObservableObject
+public partial class MainViewModel : ObservableObject
 {
-    IRepository _repository = repository;
-    IAlertService _alertService = alertService;
+    IRepository _repository;
+    IAlertService _alertService;
+
+    public MainViewModel(IRepository repository, IAlertService alertService)
+    {
+        this._repository = repository;
+        this._alertService = alertService;
+
+        WeakReferenceMessenger.Default.Register<AddMessage>(this, (r, m) => {
+            this.Entries.Add(m.Value);
+        });
+
+        WeakReferenceMessenger.Default.Register<DeleteMessage>(this, (r, m) => {
+            this.Entries.Remove(m.Value);
+        });
+    }
 
     private bool _isLoaded = false;
 
@@ -27,6 +43,9 @@ public partial class MainViewModel(IRepository repository, IAlertService alertSe
 
     [ObservableProperty]
     ObservableCollection<Entry> _entries = new();
+
+    [ObservableProperty]
+    string _url = "bbastian.xyz";
 
     [RelayCommand]
     void LoadData()
@@ -45,30 +64,13 @@ public partial class MainViewModel(IRepository repository, IAlertService alertSe
     }
 
     [RelayCommand]
-    void ToggleFavorite(Entry entry)
+    void SelectionChangedURL()
     {
-        Debug.WriteLine("togglefavorite angekommen");
-
-        entry.Favorite = !entry.Favorite;
-
-        var result = this._repository.Update(entry);
-
-        if(result)
-        {
-            Debug.WriteLine("result");
-
-            int pos = this.Entries.IndexOf(entry);
-
-            if (pos != -1)
-            {
-                this.Entries[pos] = entry;
-
-                this._alertService.ShowAlert("Successful", "The contact was saved in your favorites!");
-            }
-            else {
-                this._alertService.ShowAlert("Error", "The contact could not be added to your favorites");
-            }
-            
-        }
+        this.Url = $"https://bbastian.xyz/phonebook?firstname={this.SelectedEntry.Firstname}" +
+                   $"&lastname={this.SelectedEntry.Lastname}" +
+                   $"&number={this.SelectedEntry.Number}" +
+                   $"&adress={this.SelectedEntry.Adress}" +
+                   $"&place={this.SelectedEntry.Place}" +
+                   $"&plz={this.SelectedEntry.PLZ}";
     }
 }

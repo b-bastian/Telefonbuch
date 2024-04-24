@@ -28,14 +28,21 @@ namespace Telefonbuch.MApp
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+
+            // mainpage & mainviewmodel
             builder.Services.AddSingleton<MainViewModel>();
             builder.Services.AddSingleton<MainPage>();
 
+            // manageentry & manageentryviewmodel
             builder.Services.AddSingleton<ManageEntryPage>();
             builder.Services.AddSingleton<ManageEntryViewModel>();
 
+            // appshell
             builder.Services.AddSingleton<AppShell>();
 
+            // file name & path for xmlrepository
+            #region xmlrepository
+            /*
             string path = FileSystem.Current.AppDataDirectory;
             string filename = "data.xml";
 
@@ -44,9 +51,25 @@ namespace Telefonbuch.MApp
             Debug.WriteLine($"AppDataDirectory: {fullPath}");
 
             builder.Services.AddSingleton<IRepository>(new XmlRepository(fullPath));
+            */
+            #endregion
 
+            // file for databaserepository
+            #region databaserepository
+            string path = FileSystem.Current.AppDataDirectory;
+            string filename = "vcxvcxvcx.xml";
+
+            string fullPath = Path.Combine(path, filename);
+
+            Debug.WriteLine($"AppDataDirectory: {fullPath}");
+
+            builder.Services.AddSingleton<IRepository>(new XmlRepository(fullPath));
+            #endregion
+
+            // alerts
             builder.Services.AddSingleton<IAlertService, AlertService>();
 
+            // syncfusion licensing
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NAaF1cVGhNYVJ1WmFZfVpgd19EY1ZTQWYuP1ZhSXxXdkZiUX9YdHZRR2leVkc=");
 
 #if DEBUG

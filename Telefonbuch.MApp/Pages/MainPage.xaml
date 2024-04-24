@@ -5,7 +5,8 @@
              xmlns:viewmodels="clr-namespace:Telefonbuch.Core.ViewModels;assembly=Telefonbuch.Core"
              x:DataType="viewmodels:MainViewModel"
              xmlns:models="clr-namespace:Telefonbuch.Lib.Models;assembly=Telefonbuch.Lib"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:barcode="clr-namespace:Syncfusion.Maui.Barcode;assembly=Syncfusion.Maui.Barcode">
     <ContentPage.Behaviors>
         <toolkit:EventToCommandBehavior EventName="Appearing"
                                         Command="{Binding LoadDataCommand}" />
@@ -13,101 +14,89 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
+            <toolkit:IsNullConverter x:Key="IsNullConverter" />
+            <toolkit:IsNotNullConverter x:Key="IsNotNullConverter" />
             <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="auto,*">
-        <Grid ColumnDefinitions="*,*,*,*,*,*">
-            <Label Text="Favorite"
-                   FontSize="Caption"
-                   HorizontalOptions="Center"
-                   FontAttributes="Bold"
-                   Padding="5" />
+    <Grid RowDefinitions="auto,*,auto" ColumnDefinitions="*,250">
+        <Grid ColumnDefinitions="*,*,*,*,*">
             <Label Text="Name"
                    FontSize="Caption"
                    FontAttributes="Bold"
                    Padding="5" 
-                   Grid.Column="1" />
+                   Grid.Column="0" />
             <Label Text="Adress"
                    FontSize="Caption"
                    FontAttributes="Bold"
                    Padding="5" 
-                   Grid.Column="2" />
+                   Grid.Column="1" />
             <Label Text="Postal code"
                    FontSize="Caption"
                    FontAttributes="Bold"
                    Padding="5" 
-                   Grid.Column="3" />
+                   Grid.Column="2" />
             <Label Text="Place"
                    FontSize="Caption"
                    FontAttributes="Bold"
                    Padding="5" 
-                   Grid.Column="4" />
+                   Grid.Column="3" />
             <Label Text="Number"
                    FontSize="Caption"
                    FontAttributes="Bold"
                    Padding="5" 
-                   Grid.Column="5" />
+                   Grid.Column="4" />
         </Grid>
 
         <CollectionView Grid.Row="1"
                         ItemsSource="{Binding Entries}"
                         SelectedItem="{Binding SelectedEntry}"
-                        SelectionMode="Single">
+                        SelectionMode="Single"
+                        SelectionChangedCommand="{Binding SelectionChangedURLCommand}">
             <CollectionView.EmptyView>
                 <Label Text="Nothing to show. If you want to add a contact go to 'Manage Entries'." Padding="5" />
             </CollectionView.EmptyView>
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:Entry">
-                    <Grid ColumnDefinitions="*,*,*,*,*,*">
-                        <Image VerticalOptions="Center"
-                               HorizontalOptions="Center"
-                               Source="star_empty.png" 
-                               IsVisible="{Binding Favorite}"
-                               HeightRequest="15">
-                            <Image.GestureRecognizers>
-                                <TapGestureRecognizer
-                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MainViewModel}}, Path=ToggleFavoriteCommand}"
-                                            CommandParameter="{Binding .}" />
-                            </Image.GestureRecognizers>
-                        </Image>
-
-                        <Image VerticalOptions="Center"
-                               HorizontalOptions="Center"
-                               Source="star.png" 
-                               IsVisible="{Binding Favorite, Converter={StaticResource InvertedBoolConverter}}"
-                               HeightRequest="15">
-                            <Image.GestureRecognizers>
-                                <TapGestureRecognizer
-                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MainViewModel}}, Path=ToggleFavoriteCommand}"
-                                            CommandParameter="{Binding .}" />
-                            </Image.GestureRecognizers>
-                        </Image>
-
-                        <Label Grid.Column="1"
+                    <Grid ColumnDefinitions="*,*,*,*,*">
+                        <Label Grid.Column="0"
                                Text="{Binding Firstname}" 
                                Padding="5" />
 
-                        <Label Grid.Column="2"
+                        <Label Grid.Column="1"
                                Text="{Binding Adress}" 
                                Padding="5" />
 
-                        <Label Grid.Column="3"
+                        <Label Grid.Column="2"
                                Text="{Binding PLZ}" 
                                Padding="5" />
 
-                        <Label Grid.Column="4"
+                        <Label Grid.Column="3"
                                Text="{Binding Place}" 
                                Padding="5" />
 
-                        <Label Grid.Column="5"
+                        <Label Grid.Column="4"
                                Text="{Binding Number}" 
                                Padding="5" />
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
+        <Label Text="" Grid.Row="2" IsVisible="{Binding SelectedEntry, Converter={StaticResource IsNullConverter}}" />
+
+        <barcode:SfBarcodeGenerator Value="{Binding Url}" 
+                                    HeightRequest="200" 
+                                    WidthRequest="200"
+                                    Grid.Row="1"
+                                    Grid.Column="2"
+                                    VerticalOptions="Start"
+                                    IsVisible="{Binding SelectedEntry, Converter={StaticResource IsNotNullConverter}}">
+            <barcode:SfBarcodeGenerator.Symbology>
+                <barcode:QRCode />
+            </barcode:SfBarcodeGenerator.Symbology>
+        </barcode:SfBarcodeGenerator>
     </Grid>
     
 </ContentPage>
