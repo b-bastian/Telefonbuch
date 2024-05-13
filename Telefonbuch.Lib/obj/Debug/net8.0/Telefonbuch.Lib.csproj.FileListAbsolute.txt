@@ -1,0 +1,13 @@
+D:\Git\Telefonbuch\Telefonbuch.Lib\bin\Debug\net8.0\Telefonbuch.Lib.deps.json
+D:\Git\Telefonbuch\Telefonbuch.Lib\bin\Debug\net8.0\Telefonbuch.Lib.dll
+D:\Git\Telefonbuch\Telefonbuch.Lib\bin\Debug\net8.0\Telefonbuch.Lib.pdb
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.csproj.AssemblyReference.cache
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.AssemblyInfoInputs.cache
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.AssemblyInfo.cs
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.csproj.CoreCompileInputs.cache
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.sourcelink.json
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.dll
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\refint\Telefonbuch.Lib.dll
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\Telefonbuch.Lib.pdb
+D:\Git\Telefonbuch\Telefonbuch.Lib\obj\Debug\net8.0\ref\Telefonbuch.Lib.dll

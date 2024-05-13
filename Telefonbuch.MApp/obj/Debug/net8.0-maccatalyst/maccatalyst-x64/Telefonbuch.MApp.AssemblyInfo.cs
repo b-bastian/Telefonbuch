@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Telefonbuch.MApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1b340bec1482934aa8bf565fcf31115cf5f0e4a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dcb5b3bba2e8f8cb0e07d548e98aaa7f169bff82")]
 [assembly: System.Reflection.AssemblyProductAttribute("Telefonbuch.MApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Telefonbuch.MApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

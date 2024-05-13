@@ -1,0 +1,16 @@
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Release\net8.0\win-x64\Telefonbuch.Core.deps.json
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Release\net8.0\win-x64\Telefonbuch.Core.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Release\net8.0\win-x64\Telefonbuch.Core.pdb
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Release\net8.0\win-x64\Telefonbuch.Lib.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\bin\Release\net8.0\win-x64\Telefonbuch.Lib.pdb
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.csproj.AssemblyReference.cache
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.AssemblyInfoInputs.cache
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.AssemblyInfo.cs
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.csproj.CoreCompileInputs.cache
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.sourcelink.json
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonb.59F87428.Up2Date
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\refint\Telefonbuch.Core.dll
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\Telefonbuch.Core.pdb
+D:\Git\Telefonbuch\Telefonbuch.Core\obj\Release\net8.0\win-x64\ref\Telefonbuch.Core.dll

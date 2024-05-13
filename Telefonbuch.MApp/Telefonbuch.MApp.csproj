@@ -36,18 +36,30 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<GenerateAppInstallerFile>True</GenerateAppInstallerFile>
+		<AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+		<AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+		<AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+		<AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
+		<GenerateTestArtifacts>True</GenerateTestArtifacts>
+		<AppInstallerUri>D:\</AppInstallerUri>
+		<HoursBetweenUpdateChecks>24</HoursBetweenUpdateChecks>
+		<PackageCertificateThumbprint>D2801C49BACF01944E8781BEA7709A7CB3F32265</PackageCertificateThumbprint>
+
+		
+		<UseRidGraph>true</UseRidGraph>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\Images\appicon.svg" />
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
 		<!-- Images -->
-		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Include="Resources\Images old\*" />
+		<MauiImage Update="Resources\Images old\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -57,8 +69,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\star.svg" />
-	  <None Remove="Resources\Images\star_empty.svg" />
+	  <None Remove="Resources\Images old\star.svg" />
+	  <None Remove="Resources\Images old\star_empty.svg" />
 	</ItemGroup>
 
 	<ItemGroup>

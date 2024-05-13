@@ -1,7 +1,15 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Git\\Telefonbuch\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|d:\\git\\telefonbuch\\telefonbuch.mapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABD0F7EF-4C83-4031-874C-07186A29663C}|Telefonbuch.MApp\\Telefonbuch.MApp.csproj|solutionrelative:telefonbuch.mapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +17,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Telefonbuch.MApp\\Pages\\MainPage.xaml",
+              "ToolTip": "D:\\Git\\Telefonbuch\\Telefonbuch.MApp\\Pages\\MainPage.xaml*",
+              "RelativeToolTip": "Telefonbuch.MApp\\Pages\\MainPage.xaml*",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAUwGQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-28T14:28:46.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAgwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-04-24T21:27:51.999Z",
+              "EditorCaption": ""
             }
           ]
         }
